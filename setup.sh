@@ -34,7 +34,7 @@ source ./config/environments/adexchange_environment.cfg
 ./setup-redis.sh
 
 #download NVM and install NVM & node
-curl https://raw.githubusercontent.com/creationix/nvm/v"$NVM_VERSION"/install.sh | NVM_DIR=$HOME/repositories/adexchange/.nvm bash
+curl https://raw.githubusercontent.com/creationix/nvm/v"$NVM_VERSION"/install.sh | NVM_DIR=$HOME/repositories/acceptance-testing/.nvm bash
 source .nvm/nvm.sh
 nvm install $NODE_VERSION
 
