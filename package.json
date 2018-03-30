@@ -1,0 +1,23 @@
+{
+  "name": "@cliques/acceptance-testing",
+  "version": "0.0.1",
+  "description": "PhantomJS tests of simulated ad events to test Cliques server behavior",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cliquesads/acceptance-testing.git"
+  },
+  "author": "Ben Liang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cliquesads/acceptance-testing/issues"
+  },
+  "homepage": "https://github.com/cliquesads/acceptance-testing#readme",
+  "dependencies": {
+    "phantomjs": "^2.1.7",
+    "phantomjs-prebuilt": "^2.1.16"
+  }
+}
